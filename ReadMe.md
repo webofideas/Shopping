@@ -17,9 +17,9 @@ This is a proof of concept for a shopping basket with special offers:
 2. Open a command prompt
 3. Navigate to the location of 'shopping.exe' (e.g. {solution directory}\Shopping\bin\Debug\netcoreapp3.1)
 4. run the app from the command line with a list of items as parameters. Here are some examples that can be pasted into the command line:
-shopping "bread" "butter" "milk"
-shopping "bread" "butter" "bread" "butter"
-shopping "milk" "milk" "milk" "milk"
-shopping "milk" "milk" "milk" "milk" "butter" "butter" "bread" "milk" "milk" "milk" "milk"
+    - shopping "bread" "butter" "milk"
+    - shopping "bread" "butter" "bread" "butter"
+    - shopping "milk" "milk" "milk" "milk"
+    - shopping "milk" "milk" "milk" "milk" "butter" "butter" "bread" "milk" "milk" "milk" "milk"
 
 Alternatively, the tests can be used to prove the functionality - in the *Shopping.Tests.Unit* project there are a series of data driven tests in the *BasketTests.cs* file.
